@@ -1,0 +1,27 @@
+{
+  "name": "fashionaccesories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabethqsaico/Lab-FashionAccesories.git"
+  },
+  "author": "Elizabeth Q Saico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elizabethqsaico/Lab-FashionAccesories/issues"
+  },
+  "homepage": "https://github.com/elizabethqsaico/Lab-FashionAccesories#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1"
+  }
+}
