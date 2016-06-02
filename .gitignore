@@ -1,0 +1,6 @@
+.idea/
+.sass-cache/
+docs/
+css/main.css
+css/main.css.map
+*.html
