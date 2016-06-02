@@ -1,4 +1,22 @@
 *{	outline:1px solid rgba(255,0,0,0.3); }
 $background-gray:#F2F2F2;
-body{font-size:14px; font-family: Arial, sans-serif;}
-.header{ background: $background-gray;}
+$color:#585858;
+$font-family: "Arial"; 
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$pdt1:1%;
+$pdl2: 5px;
+body{font-size:$font-size-14; font-family: $font-family; color: $color; font-weight: bold;}
+h1,h2,h3,h4,h5{margin:0; padding: 0;}
+span{font-size:$font-size-16; font-family: $font-family; color: $color;}
+.header{background: $background-gray;}
+.header a p{font-family: $font-family;}
+.header ul li span{font-size:$font-size-12;}
+.header .col-md-4,.col-md-8{padding-top:$pdt1;}
+.header .dropdown{margin-left: $pdl2;}
+.header .dropdown .dropdown-toggle img{display:inline-block; margin-left: $pdl2;}
+.header .dropdown .dropdown-toggle p{display:inline-block; margin-left: $pdl2;}
+.header .dropdown .dropdown-toggle span{display:inline-block; margin-left: $pdl2;}
+.hero-section{background:#fff;}
+.hero-section span{font-size:50px; vertical-align: middle;}
