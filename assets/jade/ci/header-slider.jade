@@ -1,0 +1,15 @@
+.slider
+  .row
+    #carousel-example-generic.row.carousel.slide(data-ride="carousel")
+      ol.carousel-indicators
+        li.active(data-target="#carousel-example-generic" data-slide-to="0")
+        li(data-target="#carousel-example-generic" data-slide-to="1")
+    .carousel-inner(role="listbox")
+      .item.active
+        img(src="../images/slider1.jpg")
+      .item
+        img(src="../images/slider2.jpg")
+    a.left.carousel-control(href="#carousel-example-generic" role="button" data-slide="prev")
+      span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+    a.left.carousel-control(href="#carousel-example-generic" role="button" data-slide="prev")
+      span.glyphicon.glyphicon-chevron-right(aria-hidden="true")

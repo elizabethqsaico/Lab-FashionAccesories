@@ -20,12 +20,15 @@ span{font-size:$font-size-16; font-family: $font-family; color: $color;}
 .header .dropdown .dropdown-toggle img{display:inline-block; margin-left: $pdl2;}
 .header .dropdown .dropdown-toggle p{display:inline-block; margin-left: $pdl2;}
 .header .dropdown .dropdown-toggle span{display:inline-block; margin-left: $pdl2;}
-.hero-section{background:#fff; padding: 5%;}
-.hero-section img{margin:0; padding: 0;}
-.hero-section span{font-size:50px; vertical-align: middle;}
-.hero-section .search-form{ padding: 1%; border: 1px solid #F2F2F2;}
-.hero-section .search-form input{width:90%; display:inline-block; border: none;}
-.hero-section .search-form span{font-size:$font-size-14; margin:0; padding:0;margin-left: $pdl2;}
-.header .dropdown{margin-left: $pdl2;}
+.header-search{background:#fff; padding: 5%;}
+.header-search img{margin:0; padding: 0;}
+.header-search span{font-size:50px; vertical-align: middle;}
+.header-search .search-form{ padding: 1%; border: 1px solid #F2F2F2;}
+.header-search .search-form input{width:90%; display:inline-block; border: none;}
+.header-search .search-form span{font-size:$font-size-14; margin:0; padding:0;margin-left: $pdl2;}
+.header-search .dropdown{margin-left: $pdl2;}
+.nav-shopping-cart{background: $background-gray;}
 .nav-shopping-cart .dropdown .dropdown-toggle span{font-size:$font-size-14; color: $color-white;}
 .shopping-cart{background: $background-black; color: $color-white; }
+.shopping-cart li a p{display: block;}
+.shopping-cart li a span{display: inline-block;}
