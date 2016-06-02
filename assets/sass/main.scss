@@ -1,6 +1,8 @@
 *{	outline:1px solid rgba(255,0,0,0.3); }
 $background-gray:#F2F2F2;
+$background-black:#1C1C1C;
 $color:#585858;
+$color-white:#fff;
 $font-family: "Arial"; 
 $font-size-12: 12px;
 $font-size-14: 14px;
@@ -25,4 +27,5 @@ span{font-size:$font-size-16; font-family: $font-family; color: $color;}
 .hero-section .search-form input{width:90%; display:inline-block; border: none;}
 .hero-section .search-form span{font-size:$font-size-14; margin:0; padding:0;margin-left: $pdl2;}
 .header .dropdown{margin-left: $pdl2;}
-.nav-shopping-cart .dropdown .dropdown-toggle span{font-size:$font-size-14;}
+.nav-shopping-cart .dropdown .dropdown-toggle span{font-size:$font-size-14; color: $color-white;}
+.shopping-cart{background: $background-black; color: $color-white; }
