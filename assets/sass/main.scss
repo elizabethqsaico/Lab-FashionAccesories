@@ -38,14 +38,11 @@ span{font-size:$font-size-16; font-family: $font-family; color: $color;}
 .contact-slider .contact-us{padding: 5%;}
 .contact-slider h1{ background:#FF0040; padding: 1%; font-size: 50px; color: $color-white;}
 .contact-slider .contact-text{padding-top: 5%; color: $color-white; padding-bottom: 10%;}
-.banner .row{padding:5%;}
-.banner h1{ color: $color-white;}
-.banner .accesories{background: url(../images/banner1.jpg); }
-.banner .arrival{background: url(../images/banner2.jpg);}
 .client{background: url(../images/client-bg.jpg);}
 .client .row{padding:5% 10%;}
 .addtocart{background:$background-black; padding: 1%; color: $color-white;}
 .blog .red{color:#FF0040;}
+.banner .col-md-4,.col-md-8{ padding-top: 2%; padding-bottom:2%;}
 .blog h4{margin-top: 2%; margin-bottom: 2%;}
 .more-collection p{font-family: $font-family;}
 .order span{font-size:40px; padding:0; margin:0;}
