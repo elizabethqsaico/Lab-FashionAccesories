@@ -32,3 +32,7 @@ span{font-size:$font-size-16; font-family: $font-family; color: $color;}
 .shopping-cart{background: $background-black; color: $color-white; }
 .shopping-cart li a p{display: block;}
 .shopping-cart li a span{display: inline-block;}
+.footer{background: $background-black;}
+.footer p{display:inline-block; font-weight:none;}
+.footer .red{color:#FF0040;}
+.footer .row{padding:1%;}

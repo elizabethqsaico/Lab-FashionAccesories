@@ -9,10 +9,11 @@ gulp.task('sass', function(){
 });
 
 gulp.task('jade', function(){
- 	return gulp.src('./assets/jade/index.jade') /*con q archivo va a trabajar*/
+ 	return gulp.src('./assets/jade/*.jade') /*con q archivo va a trabajar*/
  	.pipe(gulpJade())
 	.pipe(gulp.dest('./assets/public'));/*ubicacion de destino*/
 }); 
+
 
 gulp.task('watch-sass',function(){
  return gulp.watch('./assets/sass/main.scss', ['sass'])});
