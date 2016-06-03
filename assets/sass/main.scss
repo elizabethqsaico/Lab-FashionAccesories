@@ -1,4 +1,4 @@
-*{	outline:1px solid rgba(255,0,0,0.3); }
+$background-white:#fff;
 $background-gray:#F2F2F2;
 $background-black:#1C1C1C;
 $color:#585858;
@@ -12,6 +12,8 @@ $pdl2: 5px;
 body{font-size:$font-size-14; font-family: $font-family; color: $color; font-weight: bold;}
 h1,h2,h3,h4,h5{margin:0; padding: 0;}
 span{font-size:$font-size-16; font-family: $font-family; color: $color;}
+.tachado{text-decoration:line-through;}
+.red{color:#FF0040;}
 .header{background: $background-gray;}
 .header a p{font-family: $font-family;}
 .header ul li span{font-size:$font-size-12;}
@@ -32,7 +34,35 @@ span{font-size:$font-size-16; font-family: $font-family; color: $color;}
 .shopping-cart{background: $background-black; color: $color-white; }
 .shopping-cart li a p{display: block;}
 .shopping-cart li a span{display: inline-block;}
+.contact-slider{background: url(../images/blog3.jpg); background-size:cover;}
+.contact-slider .contact-us{padding: 5%;}
+.contact-slider h1{ background:#FF0040; padding: 1%; font-size: 50px; color: $color-white;}
+.contact-slider .contact-text{padding-top: 5%; color: $color-white; padding-bottom: 10%;}
+.banner .row{padding:5%;}
+.banner h1{ color: $color-white;}
+.banner .accesories{background: url(../images/banner1.jpg); }
+.banner .arrival{background: url(../images/banner2.jpg);}
+.client{background: url(../images/client-bg.jpg);}
+.client .row{padding:5% 10%;}
+.addtocart{background:$background-black; padding: 1%; color: $color-white;}
+.blog .red{color:#FF0040;}
+.blog h4{margin-top: 2%; margin-bottom: 2%;}
+.more-collection p{font-family: $font-family;}
+.order span{font-size:40px; padding:0; margin:0;}
+.order .order-span{border-right: 1px solid $color;}
+.order .col-md-4{padding: 4%;}
+.order{ border: 3px solid #F2F2F2; padding:2% 3%;}
+.footer-contact{background:$background-gray;}
+.footer-contact h4{margin-bottom: 5%; margin-top:5%; color: #000; vertical-align:middle;}
+.footer span{font-size:$font-size-12;}
+.footer-contact .social{padding: 4% 5%; border-radius: 5px; background:$background-white; margin-left:10px;}
+.footer-contact .about-social{font-size: 20px; padding: 10% 20%; border-radius: 50%; background:$background-white; margin-left:10px;}
 .footer{background: $background-black;}
 .footer p{display:inline-block; font-weight:none;}
 .footer .red{color:#FF0040;}
 .footer .row{padding:1%;}
+.form-contact .maps{padding:3%;}
+.form-contact input{background: $background-gray; border:none; margin:5%;}
+.form-contact textarea{background: $background-gray; border:none; margin:5%;}
+.form-contact button{margin-bottom: 2%;}
+
